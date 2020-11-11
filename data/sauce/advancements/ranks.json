@@ -11,7 +11,7 @@
       "]"
     ],
     "description": "",
-    "background": "minecraft/assets/minecraft/textures/block/blue_glazed_terracotta.png"
+    "background": "minecraft:blue_glazed_terracotta.png"
   },
   "criteria": {
     "requirement": {
