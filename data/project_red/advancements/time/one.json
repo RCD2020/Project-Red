@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "title": "Time Well Spent",
+        "frame": "task",
+        "description": "Played for a WHOLE minute.",
+        "background": "minecraft:textures/block/bricks.png"
+    },
+    "criteria": {
+        "thirty_min": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "minutes": 1
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

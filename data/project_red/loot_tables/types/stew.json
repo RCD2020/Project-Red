@@ -1,0 +1,185 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:regeneration",
+                    "duration": {
+                      "min": 3,
+                      "max": 11
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:jump_boost",
+                    "duration": {
+                      "min": 3,
+                      "max": 11
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:poison",
+                    "duration": {
+                      "min": 3,
+                      "max": 11
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:wither",
+                    "duration": {
+                      "min": 3,
+                      "max": 11
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:weakness",
+                    "duration": {
+                      "min": 3,
+                      "max": 11
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:blindess",
+                    "duration": {
+                      "min": 3,
+                      "max": 11
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:fire_resistance",
+                    "duration": {
+                      "min": 3,
+                      "max": 11
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:night_vision",
+                    "duration": {
+                      "min": 3,
+                      "max": 11
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

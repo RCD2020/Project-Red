@@ -1,0 +1,1 @@
+execute as @a if predicate project_red:wither run scoreboard players set @s witherSummoned 1

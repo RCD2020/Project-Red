@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 20,
+                    "name": "project_red:types/epic_food"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 20,
+                    "name": "project_red:types/epic_monster"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 20,
+                    "name": "project_red:types/epic_value"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "weight": 5,
+                    "functions": [
+                      {
+                        "function": "minecraft:enchant_randomly",
+                        "enchantments": [
+                          "minecraft:mending",
+                          "minecraft:soul_speed",
+                          "minecraft:frost_walker"
+                        ]
+                      }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "name": "project_red:epic_item"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "name": "project_red:types/legendary_food"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "name": "project_red:types/legendary_item"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "name": "project_red:types/legendary_accessory"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "name": "project_red:types/legendary_value"
+                }
+            ]
+        }
+    ]
+}

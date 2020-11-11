@@ -1,0 +1,1 @@
+execute as @a if predicate project_red:dragon run scoreboard players set @s dragonKilled 1

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 10,
+            "name": "project_red:types/wood"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 10,
+            "name": "project_red:types/common_monster"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 10,
+            "name": "project_red:types/food"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 10,
+            "name": "project_red:types/common_value"
+          }
+        ]
+      }
+    ]
+  }

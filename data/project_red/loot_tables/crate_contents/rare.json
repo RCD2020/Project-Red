@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "name": "project_red:types/rare_monster"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "name": "project_red:types/rare_food"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "name": "project_red:types/rare_value"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                      {
+                        "function": "minecraft:enchant_randomly",
+                        "enchantments": [
+                          "minecraft:piercing",
+                          "minecraft:quick_charge",
+                          "minecraft:multishot",
+                          "minecraft:channeling",
+                          "minecraft:riptide",
+                          "minecraft:impaling",
+                          "minecraft:loyalty",
+                          "minecraft:lure",
+                          "minecraft:luck_of_the_sea",
+                          "minecraft:infinity",
+                          "minecraft:flame",
+                          "minecraft:punch",
+                          "minecraft:power",
+                          "minecraft:fortune",
+                          "minecraft:unbreaking",
+                          "minecraft:silk_touch",
+                          "minecraft:efficiency",
+                          "minecraft:sweeping",
+                          "minecraft:looting",
+                          "minecraft:fire_aspect",
+                          "minecraft:knockback",
+                          "minecraft:bane_of_arthropods",
+                          "minecraft:smite",
+                          "minecraft:sharpness",
+                          "minecraft:depth_strider",
+                          "minecraft:thorns",
+                          "minecraft:aqua_affinity",
+                          "minecraft:respiration",
+                          "minecraft:projectile_protection",
+                          "minecraft:blast_protection",
+                          "minecraft:feather_falling",
+                          "minecraft:fire_protection",
+                          "minecraft:protection"
+                        ]
+                      }
+                    ]
+                  }
+            ]
+        }
+    ]
+}

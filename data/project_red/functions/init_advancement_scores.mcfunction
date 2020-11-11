@@ -1,0 +1,2 @@
+scoreboard objectives add witherSummoned dummy
+scoreboard objectives add dragonKilled dummy

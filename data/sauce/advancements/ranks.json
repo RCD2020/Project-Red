@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "title": [
+      "[",
+      {
+        "text": "Ranks"
+      },
+      "]"
+    ],
+    "description": "",
+    "background": "minecraft/assets/minecraft/textures/block/blue_glazed_terracotta.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location"
+    }
+  }
+}

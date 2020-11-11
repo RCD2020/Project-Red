@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "title": "10 Hours",
+        "frame": "challenge",
+        "description": "Played for ten hours!"
+    },
+    "parent": "project_red:time/five_hour",
+    "criteria": {
+        "thirty_min": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "minutes": 600
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

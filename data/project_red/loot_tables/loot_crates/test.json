@@ -1,0 +1,31 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:barrel",
+            "functions": [
+              {
+                "function": "minecraft:set_loot_table",
+                "name": "project_red:types/legendary_item"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 64
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Testing Loot Crate",
+                  "color": "yellow"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

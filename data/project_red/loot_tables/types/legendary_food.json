@@ -1,0 +1,60 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:enchanted_golden_apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 2,
+                            "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 20,
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 3,
+                            "max": 5
+                        }
+                      },
+                      {
+                        "function": "minecraft:set_stew_effect",
+                        "effects": [
+                          {
+                            "type": "minecraft:saturation",
+                            "duration": {
+                              "min": 3,
+                              "max": 11
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                }
+            ]
+        }
+    ]
+}

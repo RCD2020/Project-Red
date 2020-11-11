@@ -1,0 +1,31 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:barrel",
+            "functions": [
+              {
+                "function": "minecraft:set_loot_table",
+                "name": "project_red:crate_contents/common"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Common Loot Crate",
+                  "color": "green"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

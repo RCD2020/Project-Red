@@ -1,0 +1,180 @@
+# Special Food
+    Enchanted Golden Apple
+        Great Effects
+        13.6 Max
+        4 Food
+        9.6 Sat
+    Golden Apple
+        Good Effects
+        13.6 Max
+        4 Food
+        9.6 Sat
+    Chorus Fruit
+        Random Teleport
+        6.4 Max
+        4 Food
+        2.4 Sat
+    Saturation Stew
+        34.2 Max
+        13 Food
+        21.2 Sat
+    Suspicious Stew
+        Random Effect
+        13.2 Max
+        6 Food
+        7.2 Sat
+    Honey Bottle
+        Clears Poison
+        7.2 Max
+        1.2 Sat
+ 
+# Normal Food
+    Rabbit Stew
+        22 Max
+        10 Food
+        12 Sat
+    Cooked Porkchop
+        20.8 Max
+        8 Food
+        12.8 Sat
+    Steak
+        20.8 Max
+        8 Food
+        12.8 Sat
+    Golden Carrot
+        20.4 Max
+        6 Food
+        14.4 Sat
+    Cake
+        16.8 Max
+        14 Food (2 per slice)
+        2.8 Sat (.4 per slice)
+    Cooked Mutton
+        15.6 Max
+        6 Food
+        9.6 Sat
+    Cooked Salmon
+        15.6 Max
+        6 Food
+        9.6 Sat
+    Beetroot Soup
+        13.2 Max
+        6 Food
+        7.2 Sat
+    Cooked Chicken
+        13.2 Max
+        6 Food
+        7.2 Sat
+    Mushroom Stew
+        13.2 Max
+        6 Food
+        7.2 Sat
+    Pumpkin Pie
+        12.8 Max
+        8 Food
+        4.8 Sat
+    Baked Potato
+        11 Max
+        5 Food
+        6 Sat
+    Bread
+        11 Max
+        5 Food
+        6 Sat
+    Cooked Cod
+        11 Max
+        5 Food
+        6 Sat
+    Cooked Rabbit
+        11 Max
+        5 Food
+        6 Sat
+    Carrot
+        6.6 Max
+        3 Food
+        3.6 Sat
+    Apple
+        6.4 Max
+        4 Food
+        2.4 Sat
+    Raw Beef
+        4.8 Max
+        3 Food
+        1.8 Sat
+    Raw Porkchop
+        4.8 Max
+        3 Food
+        1.8 Sat
+    Raw Rabbit
+        4.8 Max
+        3 Food
+        1.8 Sat
+    Melon Slice
+        3.2 Max
+        2 Food
+        1.2 Sat
+    Raw Mutton
+        3.2 Max
+        2 Food
+        1.2 Sat
+    Cookie
+        2.4 Max
+        2 Food
+        .4 Sat
+    Raw Cod
+        2.4 Max
+        2 Food
+        .4 Sat
+    Raw Salmon
+        2.4 Max
+        2 Food
+        .4 Sat
+    Sweet Berries
+        2.4 Max
+        2 Food
+        .4 Sat
+    Beetroot
+        2.2 Max
+        1 Food
+        2.2 Sat
+    Dried Kelp
+        1.6 Max
+        1 Food
+        .6 Sat
+    Potato
+        1.6 Max
+        1 Food
+        .6 Sat
+    Tropical Fish
+        1.2 Max
+        1 Food
+        .2 Sat
+
+# Bad Food
+    Pufferfish
+        Hunger III 15 Seconds
+        Nausea II 15 Seconds
+        Poison IV 60 Seconds
+        1.2 Max
+        1 Food
+        .2 Sat
+    Spider Eye
+        Poison 4 Seconds
+        5.2 Max
+        2 Food
+        3.2 Sat
+    Poisonous Potato
+        60% chance to poison for 4 seconds
+        3.2 Max
+        2 Food
+        1.2 Sat
+    Rotten Flesh
+        80% Hunger 30 Seconds
+        4.8 Max
+        4 Food
+        .8 Sat
+    Raw Chicken
+        30% Hunger 30 Seconds
+        3.2 Max
+        2 Food
+        1.2 Sat

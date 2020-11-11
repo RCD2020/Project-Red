@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:mooshroom_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:mycelium",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 7
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

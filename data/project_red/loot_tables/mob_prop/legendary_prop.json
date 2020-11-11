@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "name": "project_red:loot_crates/common"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "name": "project_red:loot_crates/rare"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 200,
+                    "name": "project_red:loot_crates/epic"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 780,
+                    "name": "project_red:loot_crates/legendary"
+                }
+            ]
+        }
+    ]
+}
