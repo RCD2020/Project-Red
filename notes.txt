@@ -1,0 +1,13 @@
+Now testing in the 1.7 snapshots
+
+Ranks:
+Coal: 1 kill [Cl]
+Copper: 25 kills [Cp]
+Iron: 50 kills [I]
+Redstone: 100 kills [R]
+Lapis: 250 kills [L]
+Quartz: 500 kills [Q]
+Gold: 1000 kills [G]
+Amethyst: 2500 kills [A]
+Diamond: 5000 kills [D]
+Netherite: 10000 kills [N]
