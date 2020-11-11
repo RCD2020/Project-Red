@@ -3,6 +3,7 @@ scoreboard objectives setdisplay list kills
 
 team add wood
 team modify wood prefix [{"text": "["},{"text": "Wood", "color": "brown", "bold": true},{"text": "]"}]
+
 team add stone
 
 team add coal
