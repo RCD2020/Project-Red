@@ -1,4 +1,4 @@
-scoreboard objectives add kills totalKillCount "Kills"
+#scoreboard objectives add kills totalKillCount "Kills"
 scoreboard objectives setdisplay list kills
 
 team add coal
@@ -31,5 +31,5 @@ team modify diamond prefix [{"text": "["},{"text": "Diamond", "color": "#56cfe1"
 team add netherite
 team modify netherite prefix [{"text": "["},{"text": "Netherite", "color": "#5f0f40", "bold": true},{"text": "] "}]
 
-team add obfuscated
-team modify obfuscated prefix [{"text": "[", "color": "#06d6a0"},{"text": "asdf", "color": "#dee2e6", "bold": true, "obfuscated": true},{"text": "] ", "color": "#06d6a0"}]
+#team add obfuscated
+#team modify obfuscated prefix [{"text": "[", "color": "#06d6a0"},{"text": "asdf", "color": "#dee2e6", "bold": true, "obfuscated": true},{"text": "] ", "color": "#06d6a0"}]
