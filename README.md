@@ -1,4 +1,3 @@
 # Project-Red Server
 
-### Website
-https://rcd2020.github.io/
+### [Website](https://rcd2020.github.io/)
