@@ -1,3 +1,9 @@
+html {
+    text-align: center;
+    background-color: #111111;
+    color: white;
+}
+
 h1 {
-    color: rebeccapurple;
+    color: #e34234;
 }
