@@ -1,0 +1,8 @@
+{
+    "values": [
+        "project_red:init_scoreboard",
+        "project_red:init_advancement_scores",
+        "project_red:init-ranks",
+        "project_red:refresh"
+    ]
+}

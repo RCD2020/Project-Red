@@ -1,5 +1,5 @@
 #scoreboard objectives add kills totalKillCount "Kills"
-scoreboard objectives setdisplay list kills
+#scoreboard objectives setdisplay list kills
 
 team add coal
 team modify coal prefix [{"text": "["},{"text": "Coal", "color": "#919599", "bold": true},{"text": "] "}]
