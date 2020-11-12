@@ -6,4 +6,4 @@ scoreboard objectives add deaths deathCount
 
 ### Set display
 #scoreboard objectives setdisplay sidebar seconds
-scoreboard objectives setdisplay sideBar minutes
+scoreboard objectives setdisplay list minutes
