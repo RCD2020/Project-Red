@@ -2,7 +2,7 @@
 scoreboard objectives setdisplay list kills
 
 team add coal
-team modify coal prefix [{"text": "["},{"text": "Coal", "color": "#212529", "bold": true},{"text": "] "}]
+team modify coal prefix [{"text": "["},{"text": "Coal", "color": "#919599", "bold": true},{"text": "] "}]
 
 team add copper
 team modify copper prefix [{"text": "["},{"text": "Copper", "color": "#e36414", "bold": true},{"text": "] "}]

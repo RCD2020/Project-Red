@@ -25,5 +25,8 @@
                 ]
             }
         }
+    },
+    "rewards": {
+        "function": "project_red:ranks/update"
     }
 }
