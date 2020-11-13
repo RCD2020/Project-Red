@@ -21,7 +21,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stone",
+                    "name": "minecraft:enchanted_book",
                     "weight": 5,
                     "functions": [
                       {
