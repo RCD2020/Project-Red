@@ -23,6 +23,11 @@
             "type": "minecraft:loot_table",
             "weight": 10,
             "name": "project_red:types/common_value"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:bundle"
           }
         ]
       }
