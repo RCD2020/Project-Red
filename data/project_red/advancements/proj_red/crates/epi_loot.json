@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrel"
+        },
+        "title": {
+            "text": "Epic Loot",
+            "color": "dark_purple"
+        },
+        "description": "Get a epic loot crate"
+    },
+    "parent": "project_red:proj_red/crates/rar_loot",
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:barrel",
+                        "nbt": "{Tags:[\"epic\"]}"
+                    }
+                ]
+            }
+        }
+    }
+}

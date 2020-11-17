@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrel"
+        },
+        "title": {
+            "text": "Legendary Loot",
+            "color": "gold"
+        },
+        "description": "Get a common loot crate"
+    },
+    "parent": "project_red:proj_red/crates/epi_loot",
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:barrel",
+                        "nbt": "{Tags:[\"legendary\"]}"
+                    }
+                ]
+            }
+        }
+    }
+}

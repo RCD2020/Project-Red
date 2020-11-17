@@ -22,6 +22,10 @@
                   "text": "Rare Loot Crate",
                   "color": "blue"
                 }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Tags:[\"rare\"]}"
               }
             ]
           }

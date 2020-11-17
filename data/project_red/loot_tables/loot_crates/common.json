@@ -22,6 +22,10 @@
                   "text": "Common Loot Crate",
                   "color": "green"
                 }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Tags:[\"common\"]}"
               }
             ]
           }

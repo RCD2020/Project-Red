@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_banner",
+            "nbt": "{BlockEntityTag:{Patterns:[{Pattern:\"flo\",Color:4}]}}"
+        },
+        "title": {
+            "text": "Project Red",
+            "bold": true,
+            "color": "red"
+        },
+        "description": "Project Red Advancements",
+        "background": "minecraft:textures/block/red_glazed_terracotta.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:barrel",
+                        "nbt": "{Tags:[\"common\"]}"
+                    }
+                ]
+          }
+        }
+      }
+}

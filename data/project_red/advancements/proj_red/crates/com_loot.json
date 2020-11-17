@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrel"
+        },
+        "title": {
+            "text": "Common Loot",
+            "color": "green"
+        },
+        "description": "Get a common loot crate"
+    },
+    "parent": "project_red:proj_red/root",
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:barrel",
+                        "nbt": "{Tags:[\"common\"]}"
+                    }
+                ]
+            }
+        }
+    }
+}

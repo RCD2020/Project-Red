@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrel"
+        },
+        "title": {
+            "text": "Rare Loot",
+            "color": "blue"
+        },
+        "description": "Get a rare loot crate"
+    },
+    "parent": "project_red:proj_red/crates/com_loot",
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:barrel",
+                        "nbt": "{Tags:[\"rare\"]}"
+                    }
+                ]
+            }
+        }
+    }
+}

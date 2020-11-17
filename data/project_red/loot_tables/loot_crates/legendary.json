@@ -22,6 +22,10 @@
                   "text": "Legendary Loot Crate",
                   "color": "gold"
                 }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Tags:[\"legendary\"]}"
               }
             ]
           }

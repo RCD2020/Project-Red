@@ -22,6 +22,10 @@
                   "text": "Epic Loot Crate",
                   "color": "dark_purple"
                 }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Tags:[\"epic\"]}"
               }
             ]
           }
