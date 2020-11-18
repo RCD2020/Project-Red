@@ -10,12 +10,21 @@
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count": 1
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": {
+                                    "type": "minecraft:score",
+                                    "target": "this",
+                                    "score": "kills",
+                                    "scale": 0.001
+                                }
+                            }
                         }
                     ],
                     "conditions": [
                         {
-                            "conditions": "minecraft:entity_scores",
+                            "condition": "minecraft:entity_scores",
                             "entity": "this",
                             "scores": {
                                 "kills": {
@@ -27,8 +36,282 @@
                 },
                 {
                     "type": "minecraft:item",
+                    "name": "minecraft:copper_ingot",
+                    "weight": 90,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": {
+                                    "type": "minecraft:score",
+                                    "target": "this",
+                                    "score": "kills",
+                                    "scale": 0.001
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "kills": {
+                                    "min": 25
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
                     "name": "minecraft:iron_ingot",
-                    ""
+                    "weight": 80,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": {
+                                    "type": "minecraft:score",
+                                    "target": "this",
+                                    "score": "kills",
+                                    "scale": 0.001
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "kills": {
+                                    "min": 50
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:redstone",
+                    "weight": 70,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": {
+                                    "type": "minecraft:score",
+                                    "target": "this",
+                                    "score": "kills",
+                                    "scale": 0.005
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "kills": {
+                                    "min": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lapis_lazuli",
+                    "weight": 60,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": {
+                                    "type": "minecraft:score",
+                                    "target": "this",
+                                    "score": "kills",
+                                    "scale": 0.005
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "kills": {
+                                    "min": 250
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:quartz",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": {
+                                    "type": "minecraft:score",
+                                    "target": "this",
+                                    "score": "kills",
+                                    "scale": 0.005
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "kills": {
+                                    "min": 500
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 40,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": {
+                                    "type": "minecraft:score",
+                                    "target": "this",
+                                    "score": "kills",
+                                    "scale": 0.001
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "kills": {
+                                    "min": 1000
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:amethyst_shard",
+                    "weight": 30,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": {
+                                    "type": "minecraft:score",
+                                    "target": "this",
+                                    "score": "kills",
+                                    "scale": 0.001
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "kills": {
+                                    "min": 2500
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": {
+                                    "type": "minecraft:score",
+                                    "target": "this",
+                                    "score": "kills",
+                                    "scale": 0.001
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "kills": {
+                                    "min": 5000
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": {
+                                    "type": "minecraft:score",
+                                    "target": "this",
+                                    "score": "kills",
+                                    "scale": 0.001
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "kills": {
+                                    "min": 5000
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         }

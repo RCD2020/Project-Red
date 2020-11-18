@@ -1,0 +1,1 @@
+execute in project_red:quartz run loot give RCD2012 mine -155 2 -120 minecraft:netherite_pickaxe
