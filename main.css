@@ -9,6 +9,10 @@ h1 {
     color: #e34234;
 }
 
+a {
+    color: #ba181b;
+}
+
 .flex-container {
     display: flex;
     /*flex-direction: column;
