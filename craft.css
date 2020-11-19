@@ -1,7 +1,8 @@
 .sidenav {
     height: 100%; /* Full-height, remove if auto height is wanted */
     width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed sidebar (stays in place when scrolling) */
+    /*position: fixed; /* Fixed sidebar (stays in place when scrolling) */
+    position: absolute;
     z-index: 1; /* Stay on top */
     top: 1; /* stay at the top */
     left: 0;
@@ -17,7 +18,7 @@
     display: block;
 }
 
-.main {
+main {
     margin-left: 160px; /* Same as sidebar */
     padding: 0px 10px;
 }
