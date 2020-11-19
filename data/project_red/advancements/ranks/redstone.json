@@ -27,6 +27,16 @@
         }
     },
     "rewards": {
-        "function": "project_red:ranks/update"
+        "function": "project_red:ranks/update",
+        "recipes": [
+            "project_red:doors/oak_door",
+            "project_red:doors/spruce_door",
+            "project_red:doors/birch_door",
+            "project_red:doors/jungle_door",
+            "project_red:doors/acacia_door",
+            "project_red:doors/dark_oak_door",
+            "project_red:doors/crimson_door",
+            "project_red:doors/warped_door"
+        ]
     }
 }
