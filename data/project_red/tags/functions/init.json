@@ -3,6 +3,7 @@
         "project_red:init/init_scoreboard",
         "project_red:init/init_advancement_scores",
         "project_red:init/init-ranks",
+        "project_red:init/init_gamerule",
         "project_red:refresh"
     ]
 }
