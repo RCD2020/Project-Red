@@ -5,6 +5,16 @@
         <title>Project Red | Crafting</title>
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="craft.css">
+
+        <script>
+            function drop(name) {
+                if (document.getElementById(name).className == "show") {
+                    document.getElementById(name).className = "hidden";
+                } else {
+                    document.getElementById(name).className = "show";
+                }
+            }
+        </script>
     </head>
 
     <body>
@@ -18,13 +28,35 @@
         </header>
         <hr>
         <nav class="sidenav">
+
+            <!-- Drop down menu -->
+            <div class="dropdown">
+                <button onclick="drop('default')" class="dropbtn">Default</button>
+                <div id="default" class="hidden">
+                    <a href="#door">Doors</a>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="dropdown">
+                <button onclick="drop('redstone')" class="dropbtn">Redstone</button>
+                <div id="redstone" class="hidden">
+                    <a href="#door-rank">Doors</a>
+                </div>
+            </div>
+
+
+
+            <!-- old
             <p>
                 <strong>Default</strong>
                 <br><a href="#door">Doors</a>
-                <br>
                 <strong>Redstone</strong>
                 <br><a href="#door-rank">Doors</a>
             </p>
+            -->
         </nav>
 
         <main>
