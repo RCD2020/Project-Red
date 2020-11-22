@@ -23,3 +23,19 @@ Diamond: 1000 kills
 Amethyst: 2500 kills
 Emerald: 5000 kills
 Netherite: 10000 kills
+
+Stone Prop(requirement, weight):
+Coal: 25, 100
+Copper: 50, 90
+Iron: 100, 80
+Redstone: 250, 70
+Lapis Lazuli: 250, 60
+Gold: 500, 40
+Diamond: 1000, 10
+Amethyst: 2500, 30
+Emerald: 5000, 20
+
+Netherrack Prop:
+Gold Nug: 100, 80
+Quartz: 500, 50
+Ancient Debris: 10000, 10

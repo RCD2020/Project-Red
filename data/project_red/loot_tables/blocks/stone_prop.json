@@ -28,7 +28,7 @@
                             "entity": "this",
                             "scores": {
                                 "kills": {
-                                    "min": 1
+                                    "min": 25
                                 }
                             }
                         }
@@ -59,7 +59,7 @@
                             "entity": "this",
                             "scores": {
                                 "kills": {
-                                    "min": 25
+                                    "min": 50
                                 }
                             }
                         }
@@ -90,7 +90,7 @@
                             "entity": "this",
                             "scores": {
                                 "kills": {
-                                    "min": 50
+                                    "min": 100
                                 }
                             }
                         }
@@ -121,7 +121,7 @@
                             "entity": "this",
                             "scores": {
                                 "kills": {
-                                    "min": 100
+                                    "min": 250
                                 }
                             }
                         }
@@ -160,37 +160,6 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:quartz",
-                    "weight": 50,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": {
-                                    "type": "minecraft:score",
-                                    "target": "this",
-                                    "score": "kills",
-                                    "scale": 0.005
-                                }
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:entity_scores",
-                            "entity": "this",
-                            "scores": {
-                                "kills": {
-                                    "min": 500
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
                     "name": "minecraft:gold_ingot",
                     "weight": 40,
                     "functions": [
@@ -214,7 +183,7 @@
                             "entity": "this",
                             "scores": {
                                 "kills": {
-                                    "min": 1000
+                                    "min": 500
                                 }
                             }
                         }
@@ -307,7 +276,7 @@
                             "entity": "this",
                             "scores": {
                                 "kills": {
-                                    "min": 5000
+                                    "min": 1000
                                 }
                             }
                         }

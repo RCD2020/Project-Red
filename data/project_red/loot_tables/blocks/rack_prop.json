@@ -28,7 +28,7 @@
                             "entity": "this",
                             "scores": {
                                 "kills": {
-                                    "min": 50
+                                    "min": 100
                                 }
                             }
                         }
