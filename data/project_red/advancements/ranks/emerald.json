@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:quartz"
+            "item": "minecraft:emerald"
         },
         "title": {
-            "text": "Quartz",
-            "color": "white"
+            "text": "Emerald",
+            "color": "green"
         },
-        "description": "500 kills",
-        "frame": "goal"
+        "description": "5000 kills",
+        "frame": "challenge"
     },
-    "parent": "project_red:ranks/lapis",
+    "parent": "project_red:ranks/amethyst",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:player_killed_entity",
@@ -20,7 +20,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "kills": 500
+                            "kills": 5000
                         }
                     }
                 ]

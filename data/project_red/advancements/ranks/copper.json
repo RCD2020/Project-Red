@@ -7,7 +7,7 @@
             "text": "Copper",
             "color": "gold"
         },
-        "description": "25 kills"
+        "description": "50 kills"
     },
     "parent": "project_red:ranks/coal",
     "criteria": {
@@ -19,7 +19,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "kills": 25
+                            "kills": 50
                         }
                     }
                 ]

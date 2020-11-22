@@ -7,10 +7,10 @@
             "text": "Diamond",
             "color": "aqua"
         },
-        "description": "5000 kills",
+        "description": "1000 kills",
         "frame": "challenge"
     },
-    "parent": "project_red:ranks/amethyst",
+    "parent": "project_red:ranks/gold",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:player_killed_entity",
@@ -20,7 +20,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "kills": 5000
+                            "kills": 1000
                         }
                     }
                 ]

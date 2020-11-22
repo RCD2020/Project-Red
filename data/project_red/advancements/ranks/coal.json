@@ -7,9 +7,9 @@
             "text": "Coal",
             "color": "gray"
         },
-        "description": "Got a kill"
+        "description": "25 kills"
     },
-    "parent": "project_red:ranks/root",
+    "parent": "project_red:ranks/oak",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:player_killed_entity",
@@ -19,7 +19,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "kills": 1
+                            "kills": 25
                         }
                     }
                 ]

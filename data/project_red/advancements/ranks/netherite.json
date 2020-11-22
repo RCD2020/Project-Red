@@ -10,7 +10,7 @@
         "description": "Got a kill",
         "frame": "challenge"
     },
-    "parent": "project_red:ranks/diamond",
+    "parent": "project_red:ranks/emerald",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:player_killed_entity",

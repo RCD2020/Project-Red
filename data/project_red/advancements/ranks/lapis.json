@@ -10,7 +10,7 @@
         "description": "250 kills",
         "frame": "goal"
     },
-    "parent": "project_red:ranks/redstone",
+    "parent": "project_red:ranks/iron",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:player_killed_entity",

@@ -7,10 +7,10 @@
             "text": "Gold",
             "color": "gold"
         },
-        "description": "1000 kills",
+        "description": "500 kills",
         "frame": "goal"
     },
-    "parent": "project_red:ranks/quartz",
+    "parent": "project_red:ranks/lapis",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:player_killed_entity",
@@ -20,7 +20,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "kills": 1000
+                            "kills": 500
                         }
                     }
                 ]

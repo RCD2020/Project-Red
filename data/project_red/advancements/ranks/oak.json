@@ -1,16 +1,15 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:amethyst_cluster"
+            "item": "minecraft:redstone"
         },
         "title": {
-            "text": "Amethyst",
-            "color": "light_purple"
+            "text": "Oak",
+            "color": "#bc7035"
         },
-        "description": "2500 kills",
-        "frame": "challenge"
+        "description": "Your first kill"
     },
-    "parent": "project_red:ranks/diamond",
+    "parent": "project_red:ranks/root",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:player_killed_entity",
@@ -20,7 +19,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "kills": 2500
+                            "kills": 1
                         }
                     }
                 ]
