@@ -33,6 +33,7 @@
             <div class="dropdown">
                 <button onclick="drop('default')" class="dropbtn">Default</button>
                 <div id="default" class="hidden">
+                    <a href="#arrow">Arrow</a>
                     <a href="#door">Doors</a>
                 </div>
             </div>
@@ -41,8 +42,9 @@
             <br>
 
             <div class="dropdown">
-                <button onclick="drop('redstone')" class="dropbtn">Redstone</button>
-                <div id="redstone" class="hidden">
+                <button onclick="drop('iron')" class="dropbtn">Iron</button>
+                <div id="iron" class="hidden">
+                    <a href="#iron_arrow">Arrow</a>
                     <a href="#door-rank">Doors</a>
                 </div>
             </div>
@@ -62,16 +64,25 @@
         <main>
             <section>
                 <h2>Default</h2>
+                <h3 id="arrow">Arrow</h3>
+                <p>Original recipe, but outputs one arrow instead of 4.</p>
+                <img src="images/crafting/default/arrow.png" width="400px">
+
                 <h3 id="door">Doors</h3>
                 <p>Now with an iron ingot for the door handle, and results in two doors rather than 3.</p>
-                <img src="images/crafting/doors.gif" width="400px">
+                <img src="images/crafting/default/doors.gif" width="400px">
             </section>
             <hr>
+
             <section>
-                <h2>Redstone</h2>
+                <h2>Iron</h2>
+                <h3 id="iron_arrow">Arrow</h3>
+                <p>Instead of flint, uses iron nuggets; outputs 4 arrows.</p>
+                <img src="images/crafting/iron/arrow.png" width="400px">
+
                 <h3 id="door-rank">Doors</h3>
                 <p>Original recipe.</p>
-                <img src="images/crafting/rank_door.gif" width="400px">
+                <img src="images/crafting/iron/rank_door.gif" width="400px">
             </section>
         </main>
         
