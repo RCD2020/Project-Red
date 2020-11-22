@@ -42,10 +42,30 @@
             <br>
 
             <div class="dropdown">
+                <button onclick="drop('copper')" class="dropbtn">Copper</button>
+                <div id="copper" class="hidden">
+                    <a href="#bow">Bow</a>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="dropdown">
                 <button onclick="drop('iron')" class="dropbtn">Iron</button>
                 <div id="iron" class="hidden">
                     <a href="#iron_arrow">Arrow</a>
                     <a href="#door-rank">Doors</a>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="dropdown">
+                <button onclick="drop('lapis')" class="dropbtn">Lapis</button>
+                <div id="lapis" class="hidden">
+                    <a href="#brewing_stand">Brewing Stand</a>
                 </div>
             </div>
 
@@ -75,6 +95,15 @@
             <hr>
 
             <section>
+                <h2>Copper</h2>
+                <h3 id="bow">Bow</h3>
+                <p>Original recipe.</p>
+                <img src="images/crafting/copper/bow.png" width="400px">
+
+            </section>
+            <hr>
+
+            <section>
                 <h2>Iron</h2>
                 <h3 id="iron_arrow">Arrow</h3>
                 <p>Instead of flint, uses iron nuggets; outputs 4 arrows.</p>
@@ -83,6 +112,14 @@
                 <h3 id="door-rank">Doors</h3>
                 <p>Original recipe.</p>
                 <img src="images/crafting/iron/rank_door.gif" width="400px">
+            </section>
+            <hr>
+
+            <section>
+                <h2>Lapis</h2>
+                <h3 id="brewing_stand">Brewing Stand</h3>
+                <p>Original recipe.</p>
+                <img src="images/crafting/lapis/brewing_stand.gif" width="400px">
             </section>
         </main>
         
