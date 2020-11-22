@@ -28,6 +28,9 @@
         }
     },
     "rewards": {
-        "function": "project_red:ranks/update"
+        "function": "project_red:ranks/update",
+        "recipes": [
+            "minecraft:brewing_stand"
+        ]
     }
 }

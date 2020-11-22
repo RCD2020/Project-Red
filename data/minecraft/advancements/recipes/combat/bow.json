@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:bow"
+    ]
+  },
+  "criteria": {
+    "copper": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:bow"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper",
+      "has_the_recipe"
+    ]
+  ]
+}

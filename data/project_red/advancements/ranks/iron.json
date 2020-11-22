@@ -7,7 +7,7 @@
             "text": "Iron",
             "color": "white"
         },
-        "description": "50 kills"
+        "description": "100 kills"
     },
     "parent": "project_red:ranks/copper",
     "criteria": {

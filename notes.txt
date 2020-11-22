@@ -24,6 +24,7 @@ Amethyst: 2500 kills
 Emerald: 5000 kills
 Netherite: 10000 kills
 
+
 Stone Prop(requirement, weight):
 Coal: 25, 100
 Copper: 50, 90
