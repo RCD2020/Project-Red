@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:crossbow"
+    ]
+  },
+  "criteria": {
+    "lapis": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:crossbow"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lapis",
+      "has_the_recipe"
+    ]
+  ]
+}

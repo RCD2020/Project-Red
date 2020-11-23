@@ -28,6 +28,17 @@
         }
     },
     "rewards": {
-        "function": "project_red:ranks/update"
+        "function": "project_red:ranks/update",
+        "recipes": [
+            "minecraft:diamond_shovel",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_hoe",
+            "minecraft:diamond_axe",
+            "minecraft:diamond_sword",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_boots"
+        ]
     }
 }

@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:diamond_sword"
+    ]
+  },
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:diamond_sword"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond",
+      "has_the_recipe"
+    ]
+  ]
+}
