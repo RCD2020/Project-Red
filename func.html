@@ -4,11 +4,22 @@
     <head>
         <title>Project Red | Functions</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="craft.css">
+
+        <script>
+            function drop(name) {
+                if (document.getElementById(name).className == "show") {
+                    document.getElementById(name).className = "hidden";
+                } else {
+                    document.getElementById(name).className = "show";
+                }
+            }
+        </script>
     </head>
 
     <body>
         <header>
-            <h1>Project Red</h1>
+            <h1>Project Red Functions</h1>
 
             <a href="./index.html">Home</a>
             <a href="./ranks.html">Ranks</a>
@@ -16,7 +27,23 @@
             <a href="./func.html">Functions</a>
         </header>
         <hr>
-        <p>Coming soon.</p>
+        
+        <nav class="sidenav">
+            <!--Dropdown menu-->
+            <div class="dropdown">
+                <button class="dropbtn" onclick="drop('public')">Public Commands</button>
+                <div id="public" class="hidden">
+                    <a href="#"></a>
+                </div>
+            </div>
+
+        </nav>
+
+        <main>
+            <section>
+                <h2>Public Commands</h2>
+            </section>
+        </main>
     </body>
 
 </html>
