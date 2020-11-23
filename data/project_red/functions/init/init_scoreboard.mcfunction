@@ -7,8 +7,6 @@ scoreboard objectives add kills totalKillCount "Kills"
 scoreboard objectives add deaths deathCount
 scoreboard objectives add constants dummy
 scoreboard objectives add total_seconds dummy
-scoreboard objectives add display trigger
-scoreboard players enable @a display
 
 ### Set constants
 scoreboard players set hours constants 60
