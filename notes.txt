@@ -13,16 +13,16 @@ Diamond: 5000 kills [D]
 Netherite: 10000 kills [N]
 
 New:
-Oak: 1 kill
-Coal: 25 kills
-Copper: 50 kills
-Iron: 100 kills
-Lapis: 250 kills
-Gold: 500 kills
-Diamond: 1000 kills
-Amethyst: 2500 kills
-Emerald: 5000 kills
-Netherite: 10000 kills
+Oak: 1 kill u2502
+Coal: 25 kills u2524
+Copper: 50 kills u2561
+Iron: 100 kills u2562
+Lapis: 250 kills u2556
+Gold: 500 kills u2555
+Diamond: 1000 kills u2563
+Amethyst: 2500 kills u2551
+Emerald: 5000 kills u2557
+Netherite: 10000 kills u255d
 
 
 Stone Prop(requirement, weight):

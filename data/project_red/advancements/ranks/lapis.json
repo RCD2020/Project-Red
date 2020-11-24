@@ -5,7 +5,7 @@
         },
         "title": {
             "text": "Lapis",
-            "color": "blue"
+            "color": "#0466c8"
         },
         "description": "250 kills",
         "frame": "goal"

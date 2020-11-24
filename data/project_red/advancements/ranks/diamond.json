@@ -5,7 +5,7 @@
         },
         "title": {
             "text": "Diamond",
-            "color": "aqua"
+            "color": "#56cfe1"
         },
         "description": "1000 kills",
         "frame": "challenge"

@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_sword"
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:1}"
         },
         "title": {
             "text": "Ranks",
