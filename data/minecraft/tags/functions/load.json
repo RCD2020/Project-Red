@@ -1,5 +1,6 @@
 {
     "values": [
-        "project_red:load"
+        "project_red:load/load",
+        "project_red:load/load_check"
     ]
 }

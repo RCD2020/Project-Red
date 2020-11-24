@@ -40,3 +40,5 @@ Netherrack Prop:
 Gold Nug: 100, 80
 Quartz: 500, 50
 Ancient Debris: 10000, 10
+
+/data modify entity @e[type=minecraft:item,limit=1,distance=..3] Item.tag.Unbreakable set value 1

@@ -1,0 +1,1 @@
+#execute if score loaded variables matches 0 run function #project_red:init
