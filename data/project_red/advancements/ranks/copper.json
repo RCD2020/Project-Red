@@ -27,9 +27,6 @@
         }
     },
     "rewards": {
-        "function": "project_red:ranks/update",
-        "recipes": [
-            "minecraft:bow"
-        ]
+        "function": "project_red:ranks/update"
     }
 }

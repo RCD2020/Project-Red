@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:bow"
+      "minecraft:copper_ingot_from_blasting"
     ]
   },
   "criteria": {
-    "has_string": {
+    "has_copper_ore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:string"
+            "item": "minecraft:copper_ore"
           }
         ]
       }
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:bow"
+        "recipe": "minecraft:copper_ingot_from_blasting"
       }
     },
     "copper": {
@@ -41,7 +41,7 @@
   },
   "requirements": [
     [
-      "has_string",
+      "has_copper_ore",
       "has_the_recipe",
       "copper"
     ]

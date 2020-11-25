@@ -28,10 +28,6 @@
         }
     },
     "rewards": {
-        "function": "project_red:ranks/update",
-        "recipes": [
-            "minecraft:brewing_stand",
-            "minecraft:crossbow"
-        ]
+        "function": "project_red:ranks/update"
     }
 }

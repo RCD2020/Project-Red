@@ -1,0 +1,60 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "project_red:iron/arrow"
+        ]
+    },
+    "criteria": {
+        "has_feather": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:feather"
+                    }
+                ]
+            }
+        },
+        "has_iron_nugget": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_nugget"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "project_red:iron/arrow"
+            }
+        },
+        "iron": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "kills": {
+                                "min": 100
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_feather",
+            "has_iron_nugget",
+            "has_the_recipe",
+            "iron"
+        ]
+    ]
+}

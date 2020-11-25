@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:bow"
+      "minecraft:iron_ingot"
     ]
   },
   "criteria": {
-    "has_string": {
+    "has_iron_ore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:string"
+            "item": "minecraft:iron_ore"
           }
         ]
       }
@@ -19,10 +19,10 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:bow"
+        "recipe": "minecraft:iron_ingot"
       }
     },
-    "copper": {
+    "iron": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": [
@@ -31,7 +31,7 @@
             "entity": "this",
             "scores": {
               "kills": {
-                "min": 50
+                "min": 100
               }
             }
           }
@@ -41,9 +41,9 @@
   },
   "requirements": [
     [
-      "has_string",
+      "has_iron_ore",
       "has_the_recipe",
-      "copper"
+      "iron"
     ]
   ]
 }

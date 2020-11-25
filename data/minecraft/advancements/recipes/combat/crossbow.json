@@ -6,20 +6,79 @@
     ]
   },
   "criteria": {
-    "lapis": {
-      "trigger": "minecraft:impossible"
+    "has_string": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:string"
+          }
+        ]
+      }
+    },
+    "has_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stick"
+          }
+        ]
+      }
+    },
+    "has_iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    },
+    "has_tripwire_hook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tripwire_hook"
+          }
+        ]
+      }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "minecraft:crossbow"
       }
+    },
+    "lapis": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "scores": {
+                "kills": {
+                  "min": 250
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
-      "lapis",
-      "has_the_recipe"
+      "has_string",
+      "has_stick",
+      "has_iron_ingot",
+      "has_tripwire_hook",
+      "has_the_recipe",
+      "lapis"
     ]
   ]
 }

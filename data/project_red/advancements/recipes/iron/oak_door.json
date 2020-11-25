@@ -1,0 +1,49 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "project_red:doors/oak_door"
+      ]
+    },
+    "criteria": {
+      "has_planks": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:oak_planks"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "project_red:doors/oak_door"
+        }
+      },
+      "iron": {
+          "trigger": "minecraft:player_killed_entity",
+          "conditions": {
+              "player": [
+                  {
+                      "condition": "minecraft:entity_scores",
+                      "entity": "this",
+                      "scores": {
+                          "kills": {
+                              "min": 100
+                          }
+                      }
+                  }
+              ]
+          }
+      }
+    },
+    "requirements": [
+      [
+        "has_planks",
+        "has_the_recipe",
+        "iron"
+      ]
+    ]
+  }
