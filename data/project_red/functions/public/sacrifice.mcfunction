@@ -3,7 +3,9 @@ execute as @a[scores={sacrifice=1}] store result score count variables run clear
 # Shows list of options
 execute as @a[scores={sacrifice=1}] run tellraw @s {"text":"--- Sacrifice ---","color":"red","bold":true,"underlined":true}
 execute as @a[scores={sacrifice=1}] run tellraw @s [{"text":"You must get ","italic":true},{"score":{"name":"sacrifice_req","objective":"constants"},"italic":true},{"text":" heads to perform a ritual","italic":true}]
+tellraw @s [{"text":"Throw your item on the ground before starting a ritual","italic":true}]
 execute as @a[scores={sacrifice=1}] run tellraw @s [{"text":"Unbreaking","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger unbreaking"}},{"text":": Makes an item unbreakable.","color":"white"}]
+tellraw @s [{"text":"Custom","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger custom"}},{"text":": Gives an item your custom texture.", "color":"white"}]
 
 
 scoreboard players set @a sacrifice 0

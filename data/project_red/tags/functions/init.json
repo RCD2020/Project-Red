@@ -5,6 +5,7 @@
         "project_red:init/init_ranks_two",
         "project_red:init/init_gamerule",
         "project_red:init/init_trigger",
+        "project_red:init/init_custom",
         "project_red:refresh"
     ]
 }

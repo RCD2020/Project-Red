@@ -1,0 +1,7 @@
+Command for changing texture
+/execute store result entity @e[type=minecraft:item,limit=1,distance=..5] Item.tag.CustomModelData int 1 run scoreboard players get @s custom_model_num
+
+Custom Model Num:
+RCD2012: 1
+Ksouffle: 2
+Amanda_da: 3
