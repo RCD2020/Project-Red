@@ -1,1 +1,1 @@
-execute as @a if score @s last_death = announcement constants run me hasn't died for 30 minutes and will now drop a head when killed.
+execute as @a if score @s last_death = announcement constants run me hasn't died for 30 minutes and will now drop a soul when killed.
