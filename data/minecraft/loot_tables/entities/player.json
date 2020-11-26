@@ -16,6 +16,31 @@
                     "conditions": [
                         {
                             "condition": "minecraft:killed_by_player"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:100}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {"text": "Soul"}
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:killed_by_player"
                         },
                         {
                             "condition": "minecraft:entity_scores",

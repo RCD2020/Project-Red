@@ -77,7 +77,9 @@
       "has_stick",
       "has_iron_ingot",
       "has_tripwire_hook",
-      "has_the_recipe",
+      "has_the_recipe"
+    ],
+    [
       "lapis"
     ]
   ]

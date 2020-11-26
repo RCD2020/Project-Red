@@ -42,7 +42,9 @@
   "requirements": [
     [
       "has_copper_ore",
-      "has_the_recipe",
+      "has_the_recipe"
+    ],
+    [
       "copper"
     ]
   ]

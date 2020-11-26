@@ -42,7 +42,9 @@
   "requirements": [
     [
       "has_furnace",
-      "has_the_recipe",
+      "has_the_recipe"
+    ],
+    [
       "coal"
     ]
   ]
