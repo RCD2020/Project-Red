@@ -1,2 +1,12 @@
-@use 'craft';
+@use 'fonts';
+@use 'components/header-nav';
+
 @use 'index';
+@use 'craft';
+
+html {
+  text-align: center;
+  background-color: #111111;
+  color: white;
+  font-family: sans-serif;
+}

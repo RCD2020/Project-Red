@@ -1,0 +1,6 @@
+@font-face {
+  font-family: titleFont;
+  src: url("assets/fonts/Western\ Bang\ Bang.otf");
+  // The reason why it's not "../assets" is because this compiles to the index.css file
+  // that is in the main directory
+}
