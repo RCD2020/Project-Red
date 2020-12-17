@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "start": "sass --watch styles/main.scss index.css",
     "test": "index.html"
   },
   "repository": {
@@ -18,7 +19,7 @@
   "homepage": "https://github.com/RCD2020/RCD2020.github.io#readme",
   "devDependencies": {
     "@types/node": "^14.14.14",
-    "less": "^3.13.0",
+    "sass": "^1.30.0",
     "typescript": "^4.1.3"
   }
 }

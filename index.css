@@ -1,0 +1,117 @@
+.sidenav {
+  height: 100%;
+  /* Full-height, remove if auto height is wanted */
+  width: 160px;
+  /* Set the width of the sidebar */
+  /*position: fixed; /* Fixed sidebar (stays in place when scrolling) */
+  position: absolute;
+  z-index: 1;
+  /* Stay on top */
+  top: 1;
+  /* stay at the top */
+  left: 0;
+  background-color: #161a1d;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  /* padding-top: 20px; */
+}
+
+.sidenav a {
+  /* padding: 6px 8px 6px 16px; */
+  text-decoration: none;
+  /* Removes decor like the little line under the link */
+  /* font-size: 25px; changes font size*/
+  display: block;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/* Dropdown button */
+.dropbtn {
+  background-color: #111111;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  /* border: double; */
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #161a1d;
+}
+
+/* The container div - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+/*.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}*/
+/* Links inside the dropdown */
+/*.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}*/
+/* Change color of dropdown links on hover */
+/*.dropdown-content a:hover {
+    background-color: #ddd;
+}*/
+/* Show the dropdown menu (use js to add this class to the .dropdown container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+html {
+  text-align: center;
+  background-color: #111111;
+  color: white;
+}
+
+h1 {
+  color: #e34234;
+}
+
+a {
+  color: #ba181b;
+}
+
+a:hover {
+  color: #660708;
+}
+
+.flex-container {
+  display: flex;
+  /*flex-direction: column;
+      Decides in which direction to stack the flex items.*/
+  /*flex-wrap: wrap;
+      Specifies whether the items should wrap or not*/
+  flex-flow: row wrap;
+  /*Shorthand for deciding setting flex-direction and flex-wrap at the same time*/
+  justify-content: space-around;
+  /* Decides how to align the content, flex-start is the default */
+}
+
+/*# sourceMappingURL=index.css.map */
