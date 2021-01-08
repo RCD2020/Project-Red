@@ -4,8 +4,15 @@
   "shortcuts": [
     {
       "name": "Crafting",
+      "description": "View PR crafting recipes",
       "url": "/pages/crafting.html",
-      "description": "View PR crafting recipes"
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
     }
   ],
   "icons": [
