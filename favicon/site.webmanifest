@@ -1,6 +1,13 @@
 {
   "name": "",
   "short_name": "",
+  "shortcuts": [
+    {
+      "name": "Crafting",
+      "url": "/pages/crafting.html",
+      "description": "View PR crafting recipes"
+    }
+  ],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
